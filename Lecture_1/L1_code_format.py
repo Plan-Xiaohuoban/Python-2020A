@@ -1,6 +1,11 @@
 import datetime
 
 
+print("This is good")
+print(1+1)
+print("1+1")
+
+
 class Hero:
     """
     Define a class named "Hero", which will be the father class of Libai and Hanxin.
@@ -56,4 +61,3 @@ if __name__ == "__main__":
     fighter = Libai("李白", 13)
     fighter.GANK()
     show_skills(fighter)
-

@@ -9,13 +9,13 @@
 # 从 1 累加到 100，需要手写一个这么长的列表吗？
 # 怎么表示“从a到b这件事情”？用range直接生成整数序列
 '''
-for i in range(100):  # 生成一个范围为 [0,100) 的整数序列
-    print(i)
+# for i in range(100):  # 生成一个范围为 [0,100) 的整数序列
+#     print(i)
 
 # for i in range(2, 10):  # 生成一个范围为 [2,10) 的整数序列
 #     print(i)
 
-# 更多用法，现用现查。
+# # 更多用法，现用现查。
 # for i in range(0, 100, 9):  # 生成一个范围为 [0,100)，每 9 个数取一个数的整数序列
 #     print(i)
 
@@ -33,9 +33,9 @@ for i in range(100):  # 生成一个范围为 [0,100) 的整数序列
 #     x = x + 1  # 可能出现死循环
 
 # 分辨 break 与 continue 的不同
-# age = 1
-# while age < 100:
-#     age += 1
-#     if age == 35:
-#         continue
-#     print(age)
+age = 1
+while age < 100:
+    age += 1
+    if age == 35:
+        continue
+    print(age)

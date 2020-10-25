@@ -1,4 +1,4 @@
-# print(61.5 >= 60)  # True
+# /print(61.5 >= 60)  # True
 # print(61.5 == 60)  # False
 # print(61.5 <= 60)  # False
 

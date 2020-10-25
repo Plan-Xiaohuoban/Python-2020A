@@ -22,5 +22,5 @@ print("-"*30)
 # print(x+1)
 
 # int 与 float的区别
-# print("a =", a, ", type =", type(a))
-# print("b =", b, ", type =", type(b))
+print("a =", a, ", type =", type(a))
+print("b =", b, ", type =", type(b))

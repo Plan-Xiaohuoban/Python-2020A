@@ -9,7 +9,7 @@ print(now)
 # now = datetime.now()
 # print(now)
 
-print(now.strftime('%Y-%m-%d,%H-%M'))
+print(now.strftime('%Y-%m-%d %H:%M'))
 # print(now.strftime('%Y年%m月%d日 %H:%M'))
 
 import locale

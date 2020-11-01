@@ -1,16 +1,12 @@
 
 
-# s = ["T", "s", "i", "n", "g", "h", "u", "a"]
-# print(s[0])  # 索引
-# print(s[1:4])  # 切片
-# s[0] = "t"  # 索引赋值
-# print(s)
-
 s = "Tsinghua"
 
-# print(s[0])  # 索引
-# print(s[1:4])  # 切片
-# s[0] = "t"  # 索引赋值
+print(s[0])  # 索引
+print(s[1:4])  # 切片
+
+# 像列表一样直接索引赋值；不可变
+# s[0] = "t"
 # print(s)
 
 a = "Tsing"
@@ -31,9 +27,9 @@ s2 = inter.join(lst)  # 以字符串 inter 为分隔符把列表 s 拼成字符�
 print(s2)
 
 
-# 搜索字符串
-index = s.find("hua")
-print(s[index : index + 3])
+# # 搜索字符串
+# index = s.find("hua")
+# print(s[index : index + 3])
 
 
 # temp = list(s)  # ['T', 's', 'i', 'n', 'g', 'h', 'u', 'a']

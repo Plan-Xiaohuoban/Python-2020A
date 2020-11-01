@@ -1,6 +1,6 @@
-score_calculus = 61.5
-score_la = 78
-score_English = 55
+# score_calculus = 61.5
+# score_la = 78
+# score_English = 55
 
 # if score_calculus >= 60:
 #     grade = "P"
@@ -9,8 +9,9 @@ score_English = 55
 # print(grade)
 
 
-# # 将语句抽象为函数，无需反复传达详细指令
-# # 形参
+
+# # # 将语句抽象为函数，无需反复传达详细指令
+# # # 形参
 # def judge_PF(score):
 #     if score >= 60:
 #         grade = "P"
@@ -19,7 +20,7 @@ score_English = 55
 #     return grade
 
 
-# # 调用函数；实参
+# # # 调用函数；实参
 # x = judge_PF(score=99)
 
 # print(x)
@@ -29,18 +30,18 @@ score_English = 55
 # print(judge_PF(score=64))
 
 
-# print(judge_PF(score_calculus))
-# print(judge_PF(score_la))
-# print(judge_PF(score_English))
+# # print(judge_PF(score_calculus))
+# # print(judge_PF(score_la))
+# # print(judge_PF(score_English))
 
 
-# # 循环调用函数
+# # # 循环调用函数
 # score_list = [45, 68, 79, 56, 99, 100, 58, 66, 78]
 # for score in score_list:
 #     print(score, judge_PF(score))
 
 
-# # 函数调用函数
+# # # 函数调用函数
 # def judge_grade(score):
 
 #     if judge_PF(score) == "F":
@@ -55,25 +56,31 @@ score_English = 55
 #         return "B"
 
 
-# score_list = [45, 68, 79, 56, 99, 100, 58, 66, 78]
-# for score in score_list:
-#     print(score, judge_grade(score))
+# # score_list = [45, 68, 79, 56, 99, 100, 58, 66, 78]
+# # for score in score_list:
+# #     print(score, judge_grade(score))
 
 
-# # 函数调用函数
-# def judge_grade(score):
-#     if judge_PF(score) == "F":
-#         grade = "F"
-#     elif score >= 95:
-#         grade = "A"
-#     elif score >= 90:
-#         grade = "A-"
-#     elif score >= 85:
-#         grade = "B+"
-#     else:
-#         grade = "B"
-#     return grade  #一个入口，一个出口
+# # # 函数调用函数
+# # def judge_grade(score):
+# #     if judge_PF(score) == "F":
+# #         grade = "F"
+# #     elif score >= 95:
+# #         grade = "A"
+# #     elif score >= 90:
+# #         grade = "A-"
+# #     elif score >= 85:
+# #         grade = "B+"
+# #     else:
+# #         grade = "B"
+# #     return grade  #一个入口，一个出口
 
-# score_list = [45, 68, 79, 56, 99, 100, 58, 66, 78]
-# for score in score_list:
-#     print(score, judge_grade(score))
+# # score_list = [45, 68, 79, 56, 99, 100, 58, 66, 78]
+# # for score in score_list:
+# #     print(score, judge_grade(score))
+
+
+def input(score):
+
+    return 0
+print(input(155))

@@ -23,10 +23,8 @@ canteen_list = [
     "清青快餐",
 ]
 target = random.choice(canteen_list)
-
 message = f"现在是{now_str}，走，去吃{target}!"
 
-# 带图片
 image_path = f"canteens/{target}.jpg"
 easygui.msgbox(msg=message, title="今天吃哪里？", ok_button="OK", image=image_path, root=None)
 

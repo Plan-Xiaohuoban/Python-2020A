@@ -16,3 +16,6 @@ print(info1)
 print(info2)
 print(info3)
 
+for GPA in range(100):
+    info3 = f"{name}'s GPA is {GPA}, but he still isn't happy"  # f-string 格式化
+    print(info3)
